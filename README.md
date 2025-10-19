@@ -15,7 +15,7 @@ Ou en python
 !pip install py7zr
 import py7zr
 
-archive_path = '/content/Gutenberg_philosophy_books_v1.7z'
+archive_path = '$FILE'
 extract_path = '/content/'
 
 with py7zr.SevenZipFile(archive_path, mode='r') as archive:
